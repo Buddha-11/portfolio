@@ -1,0 +1,80 @@
+.header{
+    height:55px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(136, 136, 215);
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 100;
+    position: fixed;
+
+}
+.header-right-section{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 220px;
+    padding: 20px;
+}
+.icon-links{
+    height: 24px;
+}
+.header-left-section{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 200px;
+        padding: 20px;
+}
+.text-links{
+    
+    font-family: 'Roboto', sans-serif;
+    
+}
+.top-board{
+    display: flex;
+    height: 450px;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+    top: 0;
+    left: 0;
+    right: 0;
+    
+}
+.mid-board
+{
+    display: flex;
+    
+    flex-direction: row;
+    justify-content:center;
+    align-items:center;
+    
+}
+.self-pic{
+    width: 300px;
+    border-radius: 20px;
+}
+.middle-board{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+    
+    height: 300px;
+}
+.h:visited{
+    color: black;
+    text-decoration: none;
+}
+.h:active{
+    text-decoration: none;
+}
+.h:link{
+    text-decoration: none;
+}
